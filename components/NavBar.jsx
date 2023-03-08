@@ -92,13 +92,18 @@ function NavBar() {
 
                   {/* <a href="/#speakers" className={`${styles.navLink} ${styles.navLinkLtr}`}>
 										SPEAKERS
-									</a> */}
+									</a> 
 
+                  
+                  // finalist
                   <Link href="/finalists">
                   <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       FINALISTS
                     </div>
                     </Link>
+                  */}
+
+                  
 
                   {/* <Link href="/#faqs"> */}
                   <ScrollLink to="faqs" spy={true} smooth={true}>

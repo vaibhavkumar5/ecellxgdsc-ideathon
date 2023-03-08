@@ -41,7 +41,7 @@ const Registration = () => {
           Loading…
         </iframe> */}
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSeL8PurloJIiiEyjOiK6d6oK498ITvggrOZKEMcY6Pl-1fibA/viewform?embedded=true"
+          src="#"
           width="700"
           height="2170"
           frameborder="0"
