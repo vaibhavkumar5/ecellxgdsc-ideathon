@@ -289,7 +289,7 @@ body {
 
 
 #text::before {
-    content: "REMINISCE TO IDEATE";
+    content: "GDSC X ECELL, ADGITM";
     font-weight: bold;
     /* z-index: 5; */
     left: 0%;
@@ -301,7 +301,7 @@ body {
   }
 
   #text::after {
-    content: "2K22";
+    content: "2K23";
     font-weight: bold;
     /* z-index: 5; */
     right: 0%;
