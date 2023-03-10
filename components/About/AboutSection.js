@@ -31,58 +31,49 @@ function AboutSection() {
         <div className="font-consolas text-justify text-xl md:text-2xl">
           <ol>
             <li>
-              {" "}
               1. The Ideathon will take place offline, and it will be held at
               Utkarsh, the annual cultural-techno fest of ADGITM (formerly known
               as Northern India Engineering College).
             </li>
 
             <li className="pt-4">
-              {" "}
               2. Participants can work individually or in teams of up to 4
               members.
             </li>
 
             <li className="pt-4">
-              {" "}
               3. The theme for the Ideathon is "Innovative Solutions for
               Sustainability".
             </li>
 
             <li className="pt-4">
-              {" "}
               4. The Ideathon will take place on March 29th, 2023, starting at
               9:00 AM and ending at 6:00 PM.
             </li>
 
             <li className="pt-4">
-              {" "}
               5. Participants can start working on their idea from March 25th,
               2023.
             </li>
 
             <li className="pt-4">
-              {" "}
               6. Participants will be given a problem statement related to
               sustainability, and they will have to come up with an innovative
               solution using technology.
             </li>
 
             <li className="pt-4">
-              {" "}
               7. The solution should be feasible, scalable, and have a positive
               impact on the environment and society.
             </li>
 
             <li className="pt-4">
-              {" "}
               8. Participants will have 8 hours to develop their solution, and
               they will have to submit a video presentation of their idea along
               with a prototype or demo.
             </li>
 
             <li className="pt-4">
-              {" "}
               9. The judging criteria will be based on the idea's feasibility,
               impact, scalability, and innovation. Preparing for the Ideathon:
             </li>
@@ -99,27 +90,22 @@ function AboutSection() {
         <div className="font-consolas text-justify text-xl md:text-2xl">
           <ol>
             <li>
-              {" "}
               1.  Participants can start preparing for the Ideathon as soon as possible.
             </li>
 
             <li className="pt-4">
-              {" "}
               2. Participants can start researching and brainstorming ideas related to sustainability, and how technology can be used to solve these problems.
             </li>
 
             <li className="pt-4">
-              {" "}
               3.  Participants can start developing their skills in programming, design, and problem-solving.
             </li>
 
             <li className="pt-4">
-              {" "}
               4. Participants can start forming teams or finding partners to work with.
             </li>
 
             <li className="pt-4">
-              {" "}
               5. Participants can attend workshops and webinars organized by Ecell and GDSC to gain knowledge and skills related to sustainability and technology.
             </li>
 
@@ -133,9 +119,7 @@ function AboutSection() {
 
       </div>
       <div className="flex mt-6">
-        {/* <button className="mx-auto border p-2 px-3 rounded-lg border-[#432D1D] mt-4 text-lg">
-          RULEBOOK
-        </button> */}
+        
         <Link href="https://docs.google.com/document/d/1gSLstdq1Tu9LnQQGkKYG7WtPGyzwo2Q7vQHTwlZifkY/edit?usp=sharing">
           <a
             target="_blank"
