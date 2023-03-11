@@ -3,15 +3,15 @@
 export const data = [
   {
     id: 1,
-    question: "What is Ideathon 2k22?",
+    question: "What is Ideathon 2k23?",
     answer:
-      "Ideathon 2k22 aims at bringing together the best minds and fashioning the most innovative solutions. Besides conceptualizing ideas and envisaging contributing to society, Ideathon 2k22 consists of stunning events and ingenious sessions with the finest entrepreneurs and industrialists.",
+      "Ideathon 2k23 aims at bringing together the best minds and fashioning the most innovative solutions. Besides conceptualizing ideas and envisaging contributing to society, Ideathon 2k22 consists of stunning events and ingenious sessions with the finest entrepreneurs and industrialists.",
   },
   {
     id: 2,
-    question: "Is Ideathon 2k22 in online mode or offline mode?",
+    question: "Is Ideathon 2k23 in online mode or offline mode?",
     answer:
-      "Ideathon 2k22 is in hybrid mode where Round-I is online and in Round-II, participants can opt to present at IIIT Pune campus in offline mode or through Google meet.",
+      "Ideathon 2k23 is in offline mode where Round-I and in Round-II, participants can opt to present at ADGITM campus in offline mode.",
   },
   {
     id: 3,
@@ -20,9 +20,9 @@ export const data = [
   },
   {
     id: 4,
-    question: "How many events will be there in the Ideathon 2k22?",
+    question: "How many events will be there in the Ideathon 2k23?",
     answer:
-      "There are 4 major events under Ideathon 2k22 along with other side events.",
+      "There are 4 major events under Ideathon 2k23 along with other side events.",
   },
   {
     id: 5,
@@ -42,8 +42,8 @@ export const data = [
   },
   {
     id: 8,
-    question: "What is the cash prize associated with different events?",
+    question: "What is the prize associated with different events?",
     answer:
-      "The total cash prize pool for Ideathon 2k22 is INR 55,000 with additional goodies as well. To know the prize money for individual events, click on register button.",
+      "The total cash prize pool for Ideathon 2k23 is worth RS 55,000 with additional goodies as well. To know the prize money for individual events, click on register button.",
   },
 ];
