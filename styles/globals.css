@@ -299,11 +299,12 @@ body {
     color: #432D1D;
     font-family: "Gilroy-ExBold", sans-serif;
   }
-
+/*
   #text::after {
-    content: "2K23";
+    content: "";
     font-weight: bold;
     /* z-index: 5; */
+    /*
     right: 0%;
     bottom: -10%;
     font-size: 1.0rem;
@@ -311,6 +312,7 @@ body {
     color: #432D1D;
     font-family: "Gilroy-ExBold", sans-serif;
   }
+  */
 
 .logo{
   transition: all 0.5s;

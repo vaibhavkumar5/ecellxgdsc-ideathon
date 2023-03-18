@@ -10,6 +10,9 @@ import Dropdown2 from "./Dropdown2.jsx";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
+
+  {/* //Devfolio
+
   React.useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://apply.devfolio.co/v2/sdk.js";
@@ -20,6 +23,7 @@ function NavBar() {
       document.body.removeChild(script);
     };
   }, []);
+  */}
 
   return (
     <div className="w-full absolute top-0 z-10">
@@ -126,6 +130,7 @@ function NavBar() {
                   </a> */}
                 </div>
               </div>
+             {/*
               <div>
                 <Link href="">
                   {/* <a
@@ -135,6 +140,7 @@ function NavBar() {
                   >
                     REGISTER NOW
                   </a> */}
+                 {/*  
                   <div className={styles.test}>
                     <div
                       className="apply-button"
@@ -146,9 +152,11 @@ function NavBar() {
                 </Link>
                 {/* <div className={styles.test}>
  <div className="apply-button" data-hackathon-slug="ideathon-2k22" data-button-theme="dark"></div>
-                </div> */}
+                </div>
               </div>
+             */}
             </div>
+          
             <div className="-mr-2 flex lg:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
