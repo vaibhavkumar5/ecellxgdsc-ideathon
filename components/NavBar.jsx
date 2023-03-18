@@ -72,13 +72,13 @@ function NavBar() {
                     </div>
                   </ScrollLink> */}
 
-                  {/* <ScrollLink to="events" spy={true} smooth={true}>
+                   <ScrollLink to="events" spy={true} smooth={true}>
                     <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       EVENTS
                     </div>
-                  </ScrollLink> */}
+                  </ScrollLink> 
 
-                  <Dropdown/>
+                  
 
                   {/* <Link href="/">
                     <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
@@ -233,18 +233,14 @@ function NavBar() {
                 </ScrollLink> */}
                 {/* </Link> */}
 
-                {/* <ScrollLink to="events" spy={true} smooth={true}>
+                 <ScrollLink to="events" spy={true} smooth={true}>
                   <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
                     EVENTS
                   </div>
-                </ScrollLink> */}
-                <Dropdown2 className="px-3 py-2" />
+                </ScrollLink> 
+                
 
-                 <Link href="/SideEvents">
-                  <a className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
-                    SIDE EVENTS
-                  </a>
-                </Link>
+                 
 
                 {/* <Link href="/#timeline"> */}
                 <ScrollLink to="timeline" spy={true} smooth={true}>
@@ -252,12 +248,13 @@ function NavBar() {
                     TIMELINE
                   </div>
                 </ScrollLink>
+                {/* </Link> 
                 <Link href="/finalists">
                 <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
                     FINALISTS
                   </div>
                   </Link>
-
+                  */}
                 {/* </Link> */}
                 {/* <Link href="/#faqs"> */}
                 <ScrollLink to="faqs" spy={true} smooth={true}>

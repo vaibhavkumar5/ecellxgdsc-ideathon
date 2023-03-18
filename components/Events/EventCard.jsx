@@ -17,7 +17,7 @@ const EventCard = (props) => {
       {data && (
         <>
           <Head>
-            <title>{data.eventName} | Ideathon 2K22</title>
+            <title>{data.eventName} | Ideathon 2k23</title>
             {/* <link rel="icon" href="https://i.imgur.com/oVZTwYa.png" /> */}
           </Head>
 

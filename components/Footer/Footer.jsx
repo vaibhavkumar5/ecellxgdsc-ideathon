@@ -15,7 +15,7 @@ const Footer = () => {
     <div>
       <div className="p-4 flex flex-col justify-center items-center">
         <div className={`${styles.lnkcls} space-x-2`}>
-          <Link href="#">
+          <Link href="https://www.instagram.com/ecelladgitm/">
             <a target="blank">
               <FontAwesomeIcon
                 icon={faInstagram}
@@ -24,7 +24,7 @@ const Footer = () => {
               />
             </a>
           </Link>
-          <Link href="#">
+          <Link href="https://www.youtube.com/@e-celladgitm4146/featured">
             <a target="blank">
               <FontAwesomeIcon
                 icon={faYoutube}
@@ -33,7 +33,7 @@ const Footer = () => {
               />
             </a>
           </Link>
-          <Link href="#">
+          <Link href="https://www.linkedin.com/company/ecell-adgitm/mycompany/">
             <a target="blank">
               <FontAwesomeIcon
                 icon={faLinkedin}
@@ -42,7 +42,7 @@ const Footer = () => {
               />
             </a>
           </Link>
-          <Link href="mailto:#">
+          <Link href="mailto:ecelladgitm@gmail.com">
             <a target="blank">
               <FontAwesomeIcon
                 icon={faEnvelope}
@@ -51,7 +51,7 @@ const Footer = () => {
               />
             </a>
           </Link>
-          <Link href="#">
+          <Link href="https://discord.gg/q8UYuKcnxn">
             <a target="blank">
               <FontAwesomeIcon
                 icon={faDiscord}
