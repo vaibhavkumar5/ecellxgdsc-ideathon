@@ -90,23 +90,23 @@ function AboutSection() {
         <div className="font-consolas text-justify text-xl md:text-2xl">
           <ol>
             <li>
-              1.  Participants can start preparing for the Ideathon as soon as possible.
+              1.Participants can start preparing for the Ideathon as soon as possible.
             </li>
 
             <li className="pt-4">
-              2. Participants can start researching and brainstorming ideas related to sustainability, and how technology can be used to solve these problems.
+              2.Participants can start researching and brainstorming ideas related to sustainability, and how technology can be used to solve these problems.
             </li>
 
             <li className="pt-4">
-              3.  Participants can start developing their skills in programming, design, and problem-solving.
+              3.Participants can start developing their skills in programming, design, and problem-solving.
             </li>
 
             <li className="pt-4">
-              4. Participants can start forming teams or finding partners to work with.
+              4.Participants can start forming teams or finding partners to work with.
             </li>
 
             <li className="pt-4">
-              5. Participants can attend workshops and webinars organized by Ecell and GDSC to gain knowledge and skills related to sustainability and technology.
+              5.Participants can attend workshops and webinars organized by Ecell and GDSC to gain knowledge and skills related to sustainability and technology.
             </li>
 
           </ol>
