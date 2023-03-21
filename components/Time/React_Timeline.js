@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { MdOutlineAppRegistration, MdAssignmentTurnedIn, MdDesignServices,MdAssignment} from "react-icons/md";
+import { MdOutlineAppRegistration, MdAssignmentTurnedIn, MdDesignServices, MdAssignment, MdOutlineOnlinePrediction, MdOutlineRedeem } from "react-icons/md";
 
 const React_Timeline = () => {
   return (
@@ -12,8 +12,7 @@ const React_Timeline = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--content"
-          
-          date="12 March 2023"
+          date="21st March 2023"
           iconStyle={{ background: "rgba(67, 45, 29, 1)", color: "#fff" }}
           icon={<MdOutlineAppRegistration />}
         >
@@ -22,50 +21,58 @@ const React_Timeline = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="28 March 2023"
+          date="29th March 2023"
           iconStyle={{ background: "rgba(67, 45, 29, 1)", color: "#fff" }}
-           icon={<MdAssignmentTurnedIn />}
+          icon={<MdAssignmentTurnedIn />}
         >
-          
           <h1 className="font-bold font-gilroy text-xl">Registration Ends</h1>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="25 March 2023"
+          date="26th March 2023"
           iconStyle={{ background: "rgba(67, 45, 29, 1)", color: "#fff" }}
           icon={<MdDesignServices />}
         >
-          
           <h1 className="font-bold font-gilroy text-xl">You can start working on your prototype</h1>
-
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="1pm  29 March 2022 ADGITM "
+          date="9AM - 10AM 31st March 2023"
           iconStyle={{ background: "rgba(67, 45, 29, 1)", color: "#fff" }}
-           icon={<MdAssignment />}
+          icon={<MdOutlineOnlinePrediction />}
         >
-          
-          <h1 className="font-bold font-gilroy text-xl">Round 1 </h1>
+          <h1 className="font-bold font-gilroy text-xl">Opening Ceremony at ADGITM</h1>
         </VerticalTimelineElement>
-
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date=" 3:30pm 29 March 2022"
+          date="31st March at 1:30pm"
           iconStyle={{ background: "rgba(67, 45, 29, 1)", color: "#fff" }}
           icon={<MdAssignment />}
         >
-          
-          <h1 className="font-bold font-gilroy text-xl">
-            Round 2
-          </h1>
+          <h1 className="font-bold font-gilroy text-xl">Round 1: PPT and Prototype Submission</h1>
         </VerticalTimelineElement>
 
-        
-       
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="31st March from 2:30PM to 3:30PM, Smart Class Lab"
+          iconStyle={{ background: "rgba(67, 45, 29, 1)", color: "#fff" }}
+          icon={<MdAssignment />}
+        >
+          <h1 className="font-bold font-gilroy text-xl">Round 2: Pitching of Shortlisted Candidates</h1>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="31st March 3:30PM to 5PM"
+          iconStyle={{ background: "rgba(67, 45, 29, 1)", color: "#fff" }}
+          icon={<MdOutlineRedeem />}
+        >
+          <h1 className="font-bold font-gilroy text-xl">Closing Ceremony at Amphitheatre</h1>
+        </VerticalTimelineElement>
+
       </VerticalTimeline>
     </div>
   );

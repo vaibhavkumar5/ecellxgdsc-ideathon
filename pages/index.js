@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ideathon 2K23</title>
+        <title>Innovation Invasion 2K23 | Ideathon ADGITM</title>
         {/* <link rel="icon" href="https://i.imgur.com/oVZTwYa.png" /> */}
       </Head>
       <NavBar />
@@ -24,12 +24,12 @@ export default function Home() {
         <div className="mainsubparent space-y-12">
           <LandingSection />
           <AboutSection />
-        {/*  <EventShelf />*/}
+          {/*  <EventShelf />*/}
           <Timeline />
           {/* <SpeakerSection /> */}
           {/* <Finalists /> */}
           <FaqSection />
-        {/* <SponsorSection />*/}
+          {/* <SponsorSection />*/}
           <Footer />
         </div>
       </div>

@@ -47,7 +47,7 @@ function AboutSection() {
             </li>
 
             <li className="pt-4">
-              4. The Ideathon will take place on March 29th, 2023, starting at
+              4. The Ideathon will take place on March 31st, 2023, starting at
               9:00 AM and ending at 6:00 PM.
             </li>
 
@@ -79,7 +79,7 @@ function AboutSection() {
             </li>
           </ol>
         </div>
-            
+
         <div className="hidden md:inline">
           <SubHeading head="Preparing" />
         </div>
@@ -119,7 +119,7 @@ function AboutSection() {
 
       </div>
       <div className="flex mt-6">
-        
+
         <Link href="https://docs.google.com/document/d/1gSLstdq1Tu9LnQQGkKYG7WtPGyzwo2Q7vQHTwlZifkY/edit?usp=sharing">
           <a
             target="_blank"
