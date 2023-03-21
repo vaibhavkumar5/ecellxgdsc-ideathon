@@ -70,7 +70,7 @@ const React_Timeline = () => {
           iconStyle={{ background: "rgba(67, 45, 29, 1)", color: "#fff" }}
           icon={<MdOutlineRedeem />}
         >
-          <h1 className="font-bold font-gilroy text-xl">Closing Ceremony at Amphitheatre</h1>
+          <h1 className="font-bold font-gilroy text-xl">Closing Ceremony </h1>
         </VerticalTimelineElement>
 
       </VerticalTimeline>
