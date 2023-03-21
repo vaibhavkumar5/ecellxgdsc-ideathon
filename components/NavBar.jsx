@@ -72,19 +72,19 @@ function NavBar() {
                     </div>
                   </ScrollLink> */}
 
-                   <ScrollLink to="events" spy={true} smooth={true}>
+                  <ScrollLink to="events" spy={true} smooth={true}>
                     <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       EVENTS
                     </div>
-                  </ScrollLink> 
+                  </ScrollLink>
 
-                  
+
 
                   {/* <Link href="/">
                     <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       RULEBOOK
                     </a>
-                  </Link> */}        
+                  </Link> */}
 
                   {/* <Link href=""> */}
                   <ScrollLink to="timeline" spy={true} smooth={true}>
@@ -107,7 +107,7 @@ function NavBar() {
                     </Link>
                   */}
 
-                  
+
 
                   {/* <Link href="/#faqs"> */}
                   <ScrollLink to="faqs" spy={true} smooth={true}>
@@ -116,9 +116,11 @@ function NavBar() {
                     </div>
                   </ScrollLink>
                   {/* </Link> */}
-                  {/* <a href="/#sponsors" className={`${styles.navLink} ${styles.navLinkLtr}`}>
-										SPONSORS
-									</a> */}
+                  <ScrollLink to="sponsors" spy={true} smooth={true}>
+                    <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
+                      sponsors
+                    </div>
+                  </ScrollLink>
                   {/* <Link to="/leaderboard" className="nav-link nav-link-ltr ">
 										LEADERBOARD
 									</Link> */}
@@ -130,7 +132,7 @@ function NavBar() {
                   </a> */}
                 </div>
               </div>
-             {/*
+              {/*
               <div>
                 <Link href="">
                   {/* <a
@@ -140,7 +142,7 @@ function NavBar() {
                   >
                     REGISTER NOW
                   </a> */}
-                 {/*  
+              {/*  
                   <div className={styles.test}>
                     <div
                       className="apply-button"
@@ -156,7 +158,7 @@ function NavBar() {
               </div>
              */}
             </div>
-          
+
             <div className="-mr-2 flex lg:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
@@ -233,14 +235,14 @@ function NavBar() {
                 </ScrollLink> */}
                 {/* </Link> */}
 
-                 <ScrollLink to="events" spy={true} smooth={true}>
+                <ScrollLink to="events" spy={true} smooth={true}>
                   <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
                     EVENTS
                   </div>
-                </ScrollLink> 
-                
+                </ScrollLink>
 
-                 
+
+
 
                 {/* <Link href="/#timeline"> */}
                 <ScrollLink to="timeline" spy={true} smooth={true}>

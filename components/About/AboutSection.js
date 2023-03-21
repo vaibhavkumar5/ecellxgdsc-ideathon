@@ -13,7 +13,7 @@ function AboutSection() {
       </div>
       <div className="w-[100%] md:w-4/5 mx-auto space-y-8 mt-8 text-[#432d1d]">
         <div className="font-consolas text-justify text-xl md:text-2xl">
-          Welcome to the Ideathon organized by Ecell and GDSC! We are excited to
+          Welcome to the Hackathon-Ideathon organized by ECell, GDSC, and Codechef ADGITM! We are excited to
           have you participate in this event where you will have the opportunity
           to showcase your innovative ideas and turn them into reality. In this
           document, we will outline the rules and procedures for the Ideathon,
@@ -106,7 +106,7 @@ function AboutSection() {
             </li>
 
             <li className="pt-4">
-              5.Participants can attend workshops and webinars organized by Ecell and GDSC to gain knowledge and skills related to sustainability and technology.
+              5.Participants can attend workshops and webinars organized by ECell, GDSC, and CC to gain knowledge and skills related to sustainability and technology.
             </li>
 
           </ol>

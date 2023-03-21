@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={`mt-5 font-gilroy tracking-wider p-2 ${styles.btm}`}>
-        © E-Cell / GDSC ADGITM, DELHI | All rights reserved
+        © E-Cell / GDSC / CC ADGITM, DELHI | All rights reserved
       </div>
     </div>
   );

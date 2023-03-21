@@ -9,22 +9,27 @@
   font-family: "Taberna";
   src: url("../fonts/TabernaSans-Black.ttf");
 }
+
 @font-face {
   font-family: "Gilroy-Med";
   src: url("../fonts/Gilroy-Medium.ttf");
 }
+
 @font-face {
   font-family: "Gilroy-Bold";
   src: url("../fonts/Gilroy-Bold.ttf");
 }
+
 @font-face {
-    font-family: "Gilroy-ExBold";
-    src: url("../fonts/Gilroy-ExtraBold.ttf");
-  }
+  font-family: "Gilroy-ExBold";
+  src: url("../fonts/Gilroy-ExtraBold.ttf");
+}
+
 @font-face {
   font-family: "Consolas";
   src: url("../fonts/CONSOLA.TTF");
 }
+
 /* body {
   background-image: url("https://i.imgur.com/AvmKsjU.jpg");
   background-size: cover; 
@@ -33,24 +38,25 @@
 } */
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    /* background-color: #e0c594;
+  /* background-color: #e0c594;
 background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
-/* background-color: #e0c594; */
-/* background-image: url("https://www.transparenttextures.com/patterns/absurdity.png"); */
-/* background-color: #e0c594;
+  /* background-color: #e0c594; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/absurdity.png"); */
+  /* background-color: #e0c594;
 background-image: url("https://www.transparenttextures.com/patterns/blizzard.png"); */
-background-color: #e0c594;
-background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
+  background-color: #e0c594;
+  background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
 }
 
 /* Subheading css */
 .outlinetext {
   -webkit-text-stroke: 0.5px #fcdec0;
 }
+
 .subhead1 {
   /* position: absolute; */
   left: 0.04em;
@@ -61,6 +67,7 @@ background-image: url("https://www.transparenttextures.com/patterns/clean-textil
   z-index: 1;
   color: #264653;
 }
+
 .subhead2 {
   position: relative;
   /* left: 26px; */
@@ -74,6 +81,7 @@ background-image: url("https://www.transparenttextures.com/patterns/clean-textil
 
   color: #432d1d;
 }
+
 .subhead3 {
   position: relative;
   left: 0.3em;
@@ -85,170 +93,204 @@ background-image: url("https://www.transparenttextures.com/patterns/clean-textil
   color: #ee7733;
   margin-bottom: -6rem;
 }
-.subhead4{
+
+.subhead4 {
   font-family: "Taberna";
   color: #432d1d;
 }
+
 .subheadparent {
   margin-top: 1rem;
   margin-bottom: -1rem;
 }
+
 @media only screen and (max-width: 600px) {
   .outlinetext {
     -webkit-text-stroke: 0.3px #fcdec0;
   }
+
   .fontsize {
     font-size: 2.2rem;
   }
+
   .subhead1 {
     left: 0.04em;
     top: -3.48em;
   }
+
   .subhead2 {
     left: 0.12em;
     top: -2.05em;
   }
+
   .subhead3 {
     left: 0.2em;
     top: -4.16em;
     margin-bottom: -4rem;
   }
 }
+
 @media only screen and (max-width: 360px) {
   .outlinetext {
     -webkit-text-stroke: 0.1px #fcdec0;
   }
+
   .fontsize {
     font-size: 1.2rem;
   }
+
   .subhead1 {
     left: 0.04em;
     top: -3.48em;
   }
+
   .subhead2 {
     left: 0.08em;
     top: -1.15em;
   }
+
   .subhead3 {
     left: 0.13em;
     top: -2.3em;
     margin-bottom: -2.2rem;
   }
 }
+
 .mainhead1 {
   font-size: 3rem;
- }
+}
+
 .mainhead2 {
   font-size: 3rem;
   margin-left: 0.15rem;
   margin-top: -1.75rem;
 }
+
 .mainhead3 {
   font-size: 3rem;
   margin-left: 0.25rem;
   margin-top: -1.8rem;
 }
+
 @media only screen and (min-width: 300px) {
-.mainhead1 {
-  font-size: 3.5rem;
- }
-.mainhead2 {
-  font-size: 3.5rem;
-  margin-left: 0.15rem;
-  margin-top: -2.2rem;
+  .mainhead1 {
+    font-size: 3.5rem;
+  }
+
+  .mainhead2 {
+    font-size: 3.5rem;
+    margin-left: 0.15rem;
+    margin-top: -2.2rem;
+  }
+
+  .mainhead3 {
+    font-size: 3.5rem;
+    margin-left: 0.25rem;
+    margin-top: -2.2rem;
+  }
 }
-.mainhead3 {
-  font-size: 3.5rem;
-  margin-left: 0.25rem;
-  margin-top: -2.2rem;
-}
-}
+
 @media only screen and (min-width: 358px) {
   .mainhead1 {
-      font-size: 4.5rem;
-    }
-    .mainhead2 {
-      font-size: 4.5rem;
-      margin-left: 0.15rem;
-      margin-top: -3.15rem;
-    }
-    .mainhead3 {
-      font-size: 4.5rem;
-      margin-left: 0.3rem;
-      margin-top: -3.2rem;
-  }
-  }
-@media only screen and (min-width: 361px) {
-.mainhead1 {
     font-size: 4.5rem;
   }
+
+  .mainhead2 {
+    font-size: 4.5rem;
+    margin-left: 0.15rem;
+    margin-top: -3.15rem;
+  }
+
+  .mainhead3 {
+    font-size: 4.5rem;
+    margin-left: 0.3rem;
+    margin-top: -3.2rem;
+  }
+}
+
+@media only screen and (min-width: 361px) {
+  .mainhead1 {
+    font-size: 4.5rem;
+  }
+
   .mainhead2 {
     font-size: 4.5rem;
     margin-left: 0.15rem;
     margin-top: -2.31rem;
   }
+
   .mainhead3 {
     font-size: 4.5rem;
     margin-left: 0.3rem;
     margin-top: -2.31rem;
-}
+  }
 }
 
 @media only screen and (min-width: 570px) {
   .mainhead1 {
     font-size: 5rem;
   }
+
   .mainhead2 {
     font-size: 5rem;
     margin-left: 0.3rem;
     margin-top: -2.8rem;
   }
+
   .mainhead3 {
     font-size: 5rem;
     margin-left: 0.5rem;
     margin-top: -2.8rem;
   }
 }
+
 /* Main ideathon head */
 @media only screen and (min-width: 602px) {
   .mainhead1 {
     font-size: 5rem;
   }
+
   .mainhead2 {
     font-size: 5rem;
     margin-left: 0.3rem;
     margin-top: -1.2rem;
   }
+
   .mainhead3 {
     font-size: 5rem;
     margin-left: 0.5rem;
     margin-top: -1.2rem;
   }
 }
+
 /* Main ideathon head */
 @media only screen and (min-width: 700px) {
   .mainhead1 {
     font-size: 9rem;
   }
+
   .mainhead2 {
     font-size: 9rem;
     margin-left: 0.3rem;
     margin-top: -5.2rem;
   }
+
   .mainhead3 {
     font-size: 9rem;
     margin-left: 0.5rem;
     margin-top: -5.2rem;
   }
 }
+
 /* Hiding the scrollbar */
 body {
   /* overflow: hidden; */
 }
+
 .mainsubparent {
   /* height: 100%; */
   /* margin-right: 0rem; */
-    /* overflow: scroll; */
+  /* overflow: scroll; */
   /* overflow-x: hidden; */
 }
 
@@ -256,6 +298,7 @@ body {
   /* height: 100rem; */
   overflow: hidden;
 }
+
 @media screen and (max-width: 1000px) {
   .mainsubparent {
     /* height: 100rem; */
@@ -263,6 +306,7 @@ body {
     /* overflow: scroll; */
     /* overflow-x: hidden; */
   }
+
   .mainparent {
     /* height: 100rem; */
     /* overflow: hidden; */
@@ -270,41 +314,42 @@ body {
 }
 
 .ticket {
-    -webkit-mask-image: radial-gradient(circle 10vh at 100% 100%, transparent 0, transparent 4vh, black 0 );
-    background: radial-gradient(circle 10vh at 0% 100%,transparent 4vh, rgb(255, 255, 255) 0);
+  -webkit-mask-image: radial-gradient(circle 10vh at 100% 100%, transparent 0, transparent 4vh, black 0);
+  background: radial-gradient(circle 10vh at 0% 100%, transparent 4vh, rgb(255, 255, 255) 0);
 }
 
 #text {
-    /* font-family: heading; */
-    position: relative;
-    /* color: white; */
-    /* font-size: 5rem; */
-    /* z-index: 5; */
-  }
+  /* font-family: heading; */
+  position: relative;
+  /* color: white; */
+  /* font-size: 5rem; */
+  /* z-index: 5; */
+}
 
-  #text2 {
-    position: relative;
-  }
+#text2 {
+  position: relative;
+}
 
 
 
 #text::before {
-    content: "GDSC X ECELL, ADGITM";
-    font-weight: bold;
-    /* z-index: 5; */
-    left: 0%;
-    top: 0%;
-    font-size: 1.0rem;
-    position: absolute;
-    color: #432D1D;
-    font-family: "Gilroy-ExBold", sans-serif;
-  }
+  content: "GDSC x ECELL x CC, ADGITM";
+  font-weight: bold;
+  /* z-index: 5; */
+  left: 0%;
+  top: 0%;
+  font-size: 1.0rem;
+  position: absolute;
+  color: #432D1D;
+  font-family: "Gilroy-ExBold", sans-serif;
+}
+
 /*
   #text::after {
     content: "";
     font-weight: bold;
     /* z-index: 5; */
-    /*
+/*
     right: 0%;
     bottom: -10%;
     font-size: 1.0rem;
@@ -314,31 +359,32 @@ body {
   }
   */
 
-.logo{
+.logo {
   transition: all 0.5s;
 }
 
-  .logo:hover{
-    transform: scale(1.2);
+.logo:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (min-width: 700px) {
+
+  #text::before {
+    font-size: 2.0rem;
   }
 
-  @media only screen and (min-width: 700px) {
+  #text::after {
+    font-size: 2.0rem;
+  }
+}
 
-    #text::before {
-        font-size: 2.0rem;
-    }
-    #text::after {
-        font-size: 2.0rem;
-    }
-  }
+.Register {
+  color: rgba(67, 45, 29, 1);
+  border: 2px solid rgba(67, 45, 29, 1);
+  /* font-size: 1em; */
+}
 
-  .Register {
-    color: rgba(67, 45, 29, 1);
-    border: 2px solid rgba(67, 45, 29, 1);
-    /* font-size: 1em; */
-  }
-  
-  .Register:hover {
-    background-color: rgba(67, 45, 29, 1);
-    color: white;
-  }
+.Register:hover {
+  background-color: rgba(67, 45, 29, 1);
+  color: white;
+}
