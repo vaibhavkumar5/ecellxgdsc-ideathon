@@ -26,7 +26,7 @@ export default function Home() {
           <AboutSection />
           {/*  <EventShelf />*/}
           <Timeline />
-          {/* <SpeakerSection /> */}
+          <SpeakerSection /> 
           {/* <Finalists /> */}
           <FaqSection />
           <SponsorSection />
