@@ -4,8 +4,6 @@ import SubHeading from "./SubHeading";
 
 const LandingSection = () => {
 
-  {/* 
-      // Devfolio integration
   React.useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://apply.devfolio.co/v2/sdk.js";
@@ -16,7 +14,6 @@ const LandingSection = () => {
       document.body.removeChild(script);
     };
   }, []);
-    */}
 
   return (
     <div className="pt-8 md:pt-0">
@@ -26,9 +23,9 @@ const LandingSection = () => {
         </h3> */}
         <SubHeading type="mainhead" head="INNOVATION "></SubHeading>
         <SubHeading type="mainhead1" head="INVASION "></SubHeading>
-        
-        
-        
+
+
+
         {/* <h3 className="text-3xl text-right text-[#432D1D] font-gilroyBold mr-[27rem] -mt-28">
           2K23
         </h3> */}
@@ -38,8 +35,7 @@ const LandingSection = () => {
       </div>
 
 
-      {/* 
-        // Devfolio style
+
       <div className="mt-8 -mb-14 lg:hidden flex md:mt-2 md:mb-8">
         <div className="mx-auto">
           <div
@@ -49,12 +45,12 @@ const LandingSection = () => {
           ></div>
         </div>
       </div>
-      */}
+
 
       <div className="hidden md:inline md:mt-8 mt-28">
         <img className="carImg" src="https://i.imgur.com/trZs8Ty.png" alt="" />
       </div>
-      
+
       <div className="md:hidden pt-10 md:mt-8 mt-28">
         <img className="carImg" src="https://i.imgur.com/LPyMehN.png" alt="" />
       </div>
