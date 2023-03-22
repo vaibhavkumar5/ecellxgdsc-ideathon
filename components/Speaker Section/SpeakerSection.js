@@ -18,11 +18,11 @@ function SpeakerSection() {
       id: 2,
       name: "Nitin Rakesh",
       picture: "https://i.imgur.com/FEIxMeF.jpg",
-      Designation: "PHD Scholar",
-      Company: "JNU",
+      Designation: "CTO",
+      Company: "ExamVat",
       LinkedIn: "https://www.linkedin.com/in/nitin-rakesh-282559119",
     },
-    
+
   ];
 
   return (

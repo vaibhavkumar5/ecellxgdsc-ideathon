@@ -8,9 +8,9 @@ function SpeakerCard({ name, picture, Designation, Company, Linkedin }) {
       <div className="flex min-h-[150px] 3xl:min-w-[210px] min-w-[180px]   mx-[5%] my-[5%] mb-[7%] flex-col px-[5%] py-[3%]  justify-center items-center border-dashed border-[1.2px] border-[#9F8772] ticket-inner">
         <Link href={Linkedin}>
           <a target="blank">
-            <button class="bg-[#542436] p-2 my-3 mt-0 font-semibold text-white inline-flex items-center space-x-2 rounded-lg">
+            <button className="bg-[#542436] p-2 my-3 mt-0 font-semibold text-white inline-flex items-center space-x-2 rounded-lg">
               <svg
-                class="w-4 h-4 fill-current"
+                className="w-4 h-4 fill-current"
                 role="img"
                 viewBox="0 0 256 256"
                 xmlns="http://www.w3.org/2000/svg"
