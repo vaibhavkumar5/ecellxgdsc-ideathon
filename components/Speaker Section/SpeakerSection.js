@@ -22,6 +22,14 @@ function SpeakerSection() {
       Company: "ExamVat",
       LinkedIn: "https://www.linkedin.com/in/nitin-rakesh-282559119",
     },
+    {
+      id: 3,
+      name: "Jaspal Singh",
+      picture: "https://i.imgur.com/rMB44eL.jpg",
+      Designation: "Co-Founder",
+      Company: "Gramya Ventures",
+      LinkedIn: "https://www.linkedin.com/in/jaspal-singh-157192158/",
+    },
 
   ];
 
