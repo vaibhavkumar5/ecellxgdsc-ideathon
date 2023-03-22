@@ -3,7 +3,6 @@ import Image from "next/image";
 import SubHeading from "./SubHeading";
 
 const LandingSection = () => {
-
   React.useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://apply.devfolio.co/v2/sdk.js";
@@ -24,8 +23,6 @@ const LandingSection = () => {
         <SubHeading type="mainhead" head="INNOVATION "></SubHeading>
         <SubHeading type="mainhead1" head="INVASION "></SubHeading>
 
-
-
         {/* <h3 className="text-3xl text-right text-[#432D1D] font-gilroyBold mr-[27rem] -mt-28">
           2K23
         </h3> */}
@@ -34,18 +31,15 @@ const LandingSection = () => {
         </h3> */}
       </div>
 
-
-
-      <div className="mt-8 -mb-14 lg:hidden flex md:mt-2 md:mb-8">
+      <div className="mt-8 -mb-14 flex md:mt-2 md:mb-8">
         <div className="mx-auto">
           <div
-            className="apply-button"
-            data-hackathon-slug="ideathon-2k23"
-            data-button-theme="dark"
+            class="apply-button"
+            data-hackathon-slug="innovation-invasion"
+            data-button-theme="light"
           ></div>
         </div>
       </div>
-
 
       <div className="hidden md:inline md:mt-8 mt-28">
         <img className="carImg" src="https://i.imgur.com/trZs8Ty.png" alt="" />

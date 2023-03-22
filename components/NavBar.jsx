@@ -11,19 +11,16 @@ import Dropdown2 from "./Dropdown2.jsx";
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  
-
   React.useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
-    };
-  }, []);
-  
+    }
+}, []);
 
   return (
     <div className="w-full absolute top-0 z-10">
@@ -78,8 +75,6 @@ function NavBar() {
                     </div>
                   </ScrollLink>
 
-
-
                   {/* <Link href="/">
                     <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       RULEBOOK
@@ -107,8 +102,6 @@ function NavBar() {
                     </Link>
                   */}
 
-
-
                   {/* <Link href="/#faqs"> */}
                   <ScrollLink to="faqs" spy={true} smooth={true}>
                     <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
@@ -132,7 +125,7 @@ function NavBar() {
                   </a> */}
                 </div>
               </div>
-              {/*
+
               <div>
                 <Link href="">
                   {/* <a
@@ -142,21 +135,26 @@ function NavBar() {
                   >
                     REGISTER NOW
                   </a> */}
-              
+
                   <div className={styles.test}>
                     <div
                       className="apply-button"
                       data-hackathon-slug="innovation-invasion"
-                      data-button-theme="dark"
+                      data-button-theme="Light"
                       style={{ height: "44px", width: "312px" }}
                     ></div>
                   </div>
                 </Link>
-                {/* <div className={styles.test}>
- <div className="apply-button" data-hackathon-slug="ideathon-2k22" data-button-theme="dark"></div>
+              {/*
+                <div className={styles.test}>
+                  <div
+                    className="apply-button"
+                    data-hackathon-slug="ideathon-2k22"
+                    data-button-theme="dark"
+                  ></div>
                 </div>
+                */}
               </div>
-            
             </div>
 
             <div className="-mr-2 flex lg:hidden">
@@ -240,9 +238,6 @@ function NavBar() {
                     EVENTS
                   </div>
                 </ScrollLink>
-
-
-
 
                 {/* <Link href="/#timeline"> */}
                 <ScrollLink to="timeline" spy={true} smooth={true}>
