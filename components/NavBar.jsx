@@ -11,7 +11,7 @@ import Dropdown2 from "./Dropdown2.jsx";
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  {/* //Devfolio
+  
 
   React.useEffect(() => {
     const script = document.createElement("script");
@@ -23,7 +23,7 @@ function NavBar() {
       document.body.removeChild(script);
     };
   }, []);
-  */}
+  
 
   return (
     <div className="w-full absolute top-0 z-10">
@@ -142,11 +142,11 @@ function NavBar() {
                   >
                     REGISTER NOW
                   </a> */}
-              {/*  
+              
                   <div className={styles.test}>
                     <div
                       className="apply-button"
-                      data-hackathon-slug="ideathon-2k22"
+                      data-hackathon-slug="innovation-invasion"
                       data-button-theme="dark"
                       style={{ height: "44px", width: "312px" }}
                     ></div>
@@ -156,7 +156,7 @@ function NavBar() {
  <div className="apply-button" data-hackathon-slug="ideathon-2k22" data-button-theme="dark"></div>
                 </div>
               </div>
-             */}
+            
             </div>
 
             <div className="-mr-2 flex lg:hidden">
