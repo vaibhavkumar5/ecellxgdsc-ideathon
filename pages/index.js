@@ -24,7 +24,7 @@ export default function Home() {
         <div className="mainsubparent space-y-12">
           <LandingSection />
           <AboutSection />
-          {/*  <EventShelf />*/}
+          <EventShelf />
           <Timeline />
           <SpeakerSection /> 
           {/* <Finalists /> */}

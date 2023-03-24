@@ -41,7 +41,7 @@ const LandingSection = () => {
           <div
             className="apply-button"
             data-hackathon-slug="innovation-invasion"
-            data-button-theme="light"
+            data-button-theme="dark-inverted"
             style={{ height: "44px", width: "312px" }}
           ></div>
         </div>

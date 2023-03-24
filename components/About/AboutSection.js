@@ -6,19 +6,8 @@ import Image from "next/image";
 function AboutSection() {
   return (
     <div id="about" className="content-center p-4 mb-14 sm:p-8">
-      <div className="hidden md:inline">
-        <SubHeading head="Themes" />
-      </div>
-      <div className="md:hidden">
-        <SubHeading head="Themes " />
-      </div>
-      <br />
-      <Image
-        src="/sdg.webp"
-        width={100}
-        height={100}
-        layout="responsive"
-      />
+      
+    
       <div className="hidden md:inline">
         <SubHeading head="Rule Book" />
       </div>
