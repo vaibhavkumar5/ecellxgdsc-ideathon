@@ -30,7 +30,7 @@ const React_Timeline = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="26th March 2023"
+          date="28th March 2023"
           iconStyle={{ background: "rgba(67, 45, 29, 1)", color: "#fff" }}
           icon={<MdDesignServices />}
         >
