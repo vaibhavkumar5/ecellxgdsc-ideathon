@@ -44,6 +44,6 @@ export const data = [
     id: 8,
     question: "What is the prize associated with different events?",
     answer:
-      "The total cash prize pool for Ideathon 2k23 is worth RS 55,000 with additional goodies as well. To know the prize money for individual events, click on register button.",
+      "The total cash prize pool for Ideathon 2k23 is worth RS 5,00,000 with additional goodies as well. To know the prize money for individual events, click on register button.",
   },
 ];
