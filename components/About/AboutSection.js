@@ -70,14 +70,9 @@ function AboutSection() {
               impact on the environment and society.
             </li>
 
-            <li className="pt-4">
-              8. Participants will have 8 hours to develop their solution, and
-              they will have to submit a video presentation of their idea along
-              with a prototype or demo.
-            </li>
 
             <li className="pt-4">
-              9. The judging criteria will be based on the idea's feasibility,
+              8. The judging criteria will be based on the idea's feasibility,
               impact, scalability, and innovation. Preparing for the Ideathon:
             </li>
           </ol>
