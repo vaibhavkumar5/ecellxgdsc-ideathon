@@ -11,10 +11,18 @@ const EventShelf = () => {
       </div>
 
       <div className="pt-8">
-        <Image src="/sdg.webp"
-         width={96} 
-         height={48} 
-         layout="responsive" />
+        <Image
+          src="/sdg.webp"
+          width={96}
+          height={48}
+          layout="responsive"
+        />
+        <div
+          className="text-center text-4xl font-consolas mt-5"
+        >
+          <div>OR</div>
+          <div className="font-semibold">Open Innovation</div>
+        </div>
       </div>
     </div>
   );
