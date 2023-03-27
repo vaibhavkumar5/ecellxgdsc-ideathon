@@ -40,6 +40,14 @@ function SpeakerSection() {
       Designation: "SDE",
       Company: "Amazon Web Services",
       LinkedIn: "https://www.linkedin.com/in/adityaagrawaldelhi/"
+    },
+    {
+      id: 2,
+      name: "Anuj Gupta",
+      picture: "/anuj_gupta.jpeg",
+      Designation: "SDE",
+      Company: "Swiggy",
+      LinkedIn: "https://www.linkedin.com/in/anujj-gupta/"
     }
   ]
 
