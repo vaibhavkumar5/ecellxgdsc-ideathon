@@ -4,7 +4,7 @@ import SubHeading from "../SubHeading";
 import SpeakerCard from "./SpeakerCard";
 
 function SpeakerSection() {
-  const speakers = [
+  const judges = [
     {
       id: 1,
       name: "Deekshita Verma",
@@ -30,14 +30,24 @@ function SpeakerSection() {
       Company: "Gramya Ventures",
       LinkedIn: "https://www.linkedin.com/in/jaspal-singh-157192158/",
     },
-
   ];
+
+  const speakers = [
+    {
+      id: 1,
+      name: "Aditya Agrawal",
+      picture: "/aditya_agrawal.jpg",
+      Designation: "SDE",
+      Company: "Amazon Web Services",
+      LinkedIn: "https://www.linkedin.com/in/adityaagrawaldelhi/"
+    }
+  ]
 
   return (
     <div className="section p-4 sm:p-8 image relative">
+      {/* speaker */}
       <div className="Speaker-Seciton-Heading">
-        <SubHeading head="Judges" />
-        {/* <h2 className="text-5xl flex p-[1vmax] justify-center items-center text-[#264653] font-bold font-['TabernaSans-Black']"></h2> */}
+        <SubHeading head="Speaker" />
       </div>
       <div className="flex justify-center items-center flex-wrap">
         {speakers?.map((speaker) => (
@@ -48,6 +58,22 @@ function SpeakerSection() {
             Designation={speaker.Designation}
             Company={speaker.Company}
             Linkedin={speaker.LinkedIn}
+          />
+        ))}
+      </div>
+      {/* judges */}
+      <div className="Speaker-Seciton-Heading">
+        <SubHeading head="Judges" />
+      </div>
+      <div className="flex justify-center items-center flex-wrap">
+        {judges?.map((judge) => (
+          <SpeakerCard
+            key={judge.id}
+            name={judge.name}
+            picture={judge.picture}
+            Designation={judge.Designation}
+            Company={judge.Company}
+            Linkedin={judge.LinkedIn}
           />
         ))}
       </div>
