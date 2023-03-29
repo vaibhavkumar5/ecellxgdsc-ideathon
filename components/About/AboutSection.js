@@ -65,14 +65,9 @@ function AboutSection() {
               solution using technology.
             </li>
 
+            
             <li className="pt-4">
-              7. The solution should be feasible, scalable, and have a positive
-              impact on the environment and society.
-            </li>
-
-
-            <li className="pt-4">
-              8. The judging criteria will be based on the idea's feasibility,
+              7. The judging criteria will be based on the idea's feasibility,
               impact, scalability, and innovation. Preparing for the Ideathon:
             </li>
           </ol>
